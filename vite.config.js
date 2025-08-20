@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'portfolio-jv', // 👈 nome exato do repo
+  // base: '/portfolio-jv/', // ❌ não precisa no Vercel
 })
